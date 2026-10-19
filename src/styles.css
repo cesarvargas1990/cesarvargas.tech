@@ -32,16 +32,16 @@ footer{background:var(--red);color:var(--on-dark);padding:95px 8vw 28px;min-heig
 
 /* Composition overhaul: a panel-based software studio interface. */
 :root{
-  --paper:#e9eef3;--surface:#ffffff;--surface-alt:#dce7ef;--ink:#121a24;--ink-soft:#536170;
-  --line:#c9d2da;--line-strong:#8795a3;--red:#ff6b4a;--green:#b8f05c;--yellow:#ffd166;
-  --blue:#5c63ff;--dark-surface:#121a24;--on-dark:#f4f7f3;--grid:rgba(18,26,36,.08);
-  --overlay:rgba(18,26,36,.58);--header-bg:rgba(233,238,243,.8);--shadow:rgba(18,26,36,.16);--radius:24px
+  --paper:#f4f1ff;--surface:#ffffff;--surface-alt:#e8ddff;--ink:#241536;--ink-soft:#685b78;
+  --line:#ddd2ed;--line-strong:#aa98c3;--red:#ff5c35;--green:#c7f36b;--yellow:#ffcf5b;
+  --blue:#5438d5;--dark-surface:#24143d;--on-dark:#fff8ef;--grid:rgba(36,21,54,.08);
+  --overlay:rgba(36,21,54,.56);--header-bg:rgba(244,241,255,.84);--shadow:rgba(36,21,54,.16);--radius:24px
 }
 :root[data-theme='dark']{
-  --paper:#090e15;--surface:#111a25;--surface-alt:#172634;--ink:#f0f4ef;--ink-soft:#aab8c2;
-  --line:#263746;--line-strong:#526575;--red:#ff8567;--green:#b8f05c;--yellow:#ffd166;
-  --blue:#9da5ff;--dark-surface:#050a10;--on-dark:#f0f4ef;--grid:rgba(240,244,239,.08);
-  --overlay:rgba(0,0,0,.78);--header-bg:rgba(9,14,21,.82);--shadow:rgba(0,0,0,.42)
+  --paper:#0e0a18;--surface:#19122a;--surface-alt:#2a1a40;--ink:#f9f3ff;--ink-soft:#c4b8d4;
+  --line:#3c2a53;--line-strong:#725b91;--red:#ff7a5c;--green:#d0fa76;--yellow:#f8ca63;
+  --blue:#a99aff;--dark-surface:#080512;--on-dark:#fff8ef;--grid:rgba(249,243,255,.09);
+  --overlay:rgba(5,2,12,.8);--header-bg:rgba(14,10,24,.86);--shadow:rgba(0,0,0,.42)
 }
 body{background:var(--paper)}
 .site-header{width:min(1240px,calc(100% - 48px));height:70px;margin:18px auto 0;border:1px solid var(--line);border-radius:20px;padding:0 22px;box-shadow:0 12px 30px var(--shadow)}
