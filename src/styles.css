@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root{
   --paper:#eef4ff;--surface:#ffffff;--surface-alt:#dbe8ff;--ink:#10233f;--ink-soft:#506887;
   --line:#c8d8ef;--line-strong:#88a4c9;--red:#2f6fed;--green:#79d7d0;--yellow:#91a8f3;
   --blue:#4b5cff;--dark-surface:#0d1b33;--on-dark:#f3f7ff;--grid:rgba(16,35,63,.08);
   --overlay:rgba(16,35,63,.56);--header-bg:rgba(238,244,255,.84);--shadow:rgba(16,35,63,.16);
-  --radius:18px;--mono:'DM Mono',monospace;--sans:'Manrope',Arial,sans-serif;--display:'Manrope',Arial,sans-serif;
+  --radius:18px;--mono:'DM Mono',monospace;--sans:'Manrope',Arial,sans-serif;--display:'Archivo',Arial,sans-serif;
   font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.5;font-synthesis:none;color-scheme:light
 }
 :root[data-theme='dark']{
