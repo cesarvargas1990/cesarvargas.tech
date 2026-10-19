@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 :root{
   --paper:#f4f1ea;--surface:#fffdf8;--surface-alt:#e6eef0;--ink:#1b2330;--ink-soft:#53606a;
   --line:#d6d9d6;--line-strong:#a7b1b2;--red:#c86b58;--green:#a9c8bd;--yellow:#dfbe72;
   --blue:#5b5fc7;--dark-surface:#1b2330;--on-dark:#f4f1ea;--grid:rgba(27,35,48,.07);
   --overlay:rgba(23,33,43,.52);--header-bg:rgba(243,240,232,.84);--shadow:rgba(23,33,43,.12);
-  --radius:18px;--mono:'DM Mono',monospace;--sans:'Bricolage Grotesque',Arial,sans-serif;
+  --radius:18px;--mono:'DM Mono',monospace;--sans:'Plus Jakarta Sans',Arial,sans-serif;
   font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.5;font-synthesis:none;color-scheme:light
 }
 :root[data-theme='dark']{
