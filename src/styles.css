@@ -8,7 +8,7 @@
 .contact-phone,.contact-email{font: .68rem var(--mono);text-decoration:underline;text-underline-offset:4px}.contact-phone:hover,.contact-email:hover{color:var(--green)}
 .contact-linkedin{font:.68rem var(--mono);text-decoration:underline;text-underline-offset:4px}.contact-linkedin:hover{color:var(--green)}
 .site-header{border-bottom-color:#30302d}.project-tile.red,.rescue,footer{background:var(--red)}.project-tile.green{background:var(--green)}.project-tile.yellow{background:var(--yellow)}
-:root{--paper:#ecebe6;--warm:#deded8;--ink:#272725;--red:#c9574e;--green:#a9c783;--yellow:#d8bd68;background:#ecebe6}body{background:var(--paper)}.site-header{background:rgba(236,235,230,.95)}
+:root{--paper:#f1f0ea;--warm:#d9ddd9;--ink:#1f2933;--red:#b96552;--green:#8ba99a;--yellow:#d5b36a;background:#f1f0ea}body{background:var(--paper)}.site-header{background:rgba(241,240,234,.95)}.project-tile.dark{background:#263b52}
 .whatsapp-float{position:fixed;left:22px;bottom:22px;z-index:15;display:flex;align-items:center;gap:9px;padding:12px 15px;border:1px solid var(--ink);background:var(--green);color:var(--ink);font:.7rem var(--mono);box-shadow:4px 4px 0 var(--ink)}.whatsapp-float:hover{background:var(--red);color:#fff;border-color:var(--red);box-shadow:4px 4px 0 var(--ink)}
 @media(max-width:650px){.whatsapp-float{left:14px;bottom:14px;padding:11px}.whatsapp-float span{display:none}}
 
