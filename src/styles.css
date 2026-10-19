@@ -90,3 +90,8 @@ body:before,body:after{display:none}main{background-image:none}.site-header{widt
 .free-section{background:var(--surface-alt);border-radius:0}.page-intro{background:transparent;color:var(--ink);border-radius:0;padding:0 0 64px;margin:0}.page-intro .eyebrow{color:var(--blue)}.page-intro h1{color:var(--ink)}.page-intro p{color:var(--ink-soft)}.detail-grid,.timeline,.toolbox-full,.blog-list{background:var(--surface);border-color:var(--line);box-shadow:none}.blog-row h2{color:var(--ink)}footer{margin-top:0;border-radius:0;background:var(--blue)}
 @media(max-width:1000px){.site-header{height:78px;padding:0 6vw}.section,.page,.hero{width:calc(100% - 80px)}.hero{grid-template-columns:1fr;min-height:auto}.hero-art{min-height:500px}.band,.rescue{padding-left:6vw;padding-right:6vw}}
 @media(max-width:650px){.site-header{height:64px;padding:0 5vw}.section,.page,.hero{width:calc(100% - 32px)}.hero{padding:58px 0 66px}.hero-art{min-height:390px}.band,.rescue{padding-left:5vw;padding-right:5vw}.page-intro{padding-bottom:42px}}
+
+/* Keep the free-help panel compact after the reference layout overrides. */
+.free-section{padding:62px max(5vw,calc((100vw - 1370px)/2)) 70px}.free-section .free-layout{margin-top:24px;gap:7vw}.free-section h2{margin-top:10px}
+@media(max-width:1000px){.free-section{padding:54px 6vw 62px}}
+@media(max-width:650px){.free-section{padding:46px 5vw 52px}}
